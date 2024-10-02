@@ -1,12 +1,12 @@
 # Algorithm Document
 #### PLEASE! PLEASE! PLEASE! THINK before you code...
-1. prompt user to enter package type  
-2. prompt user to enter gb used
-3. case correct package type given  
-4. While package type does not equal purple, green, or blue re-prompt user to enter package type
+1. prompt user to enter package type "Enter your package type:"
+2. case correct package type given
+3. While package type does not equal purple or green or blue:
+   1. Prompt user to Enter a valid package type "Enter a valid package type."
 4. Check if package type is 'green'    
    1. price is 49.99 a month  
-   2. if GB is greater than 2    
+   2. if GB is greater than 2:   
       1. subtract 2 from GB used 
       2. price = price + 15 * GB used 
       3. prompt user to enter if they have a coupon   
@@ -19,7 +19,7 @@
       2. price = price + 10 * GB used
 6. check if package is 'purple'
    1.  set price to 99.95
-7. Output Price and GB used to user
+7. Output Price and GB used to user "Your total is _. You used _GB."
 
 
 
