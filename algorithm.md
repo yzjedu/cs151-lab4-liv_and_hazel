@@ -4,6 +4,7 @@
 2. case correct package type given
 3. While package type does not equal purple or green or blue:
    1. Prompt user to Enter a valid package type "Enter a valid package type."
+   2. Case correct package type given
 4. Check if package type is 'green'    
    1. price is 49.99 a month  
    2. if GB is greater than 2:   
