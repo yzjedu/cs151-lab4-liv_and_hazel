@@ -10,8 +10,12 @@
    2. if GB is greater than 2:   
       1. subtract 2 from GB used 
       2. price = price + 15 * GB used 
-      3. prompt user to enter if they have a coupon   
-      4. check if user entered 'yes' and if price is greater than 75
+      3. prompt user to enter if they have a coupon ("yes" or "no")
+      4. Case correct coupon to all lowercase
+      5. While coupon does not equal "yes" or "no":
+         1. Prompt user to re-enter coupon string
+         2. Case correct coupon to all lowercase
+      6. check if user entered 'yes' and if price is greater than 75
          1. if true price = price - 20  
 5. check if package is 'blue' 
    1. set price to 70
