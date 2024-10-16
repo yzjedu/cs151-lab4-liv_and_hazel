@@ -51,7 +51,7 @@
 - The while loop in the green package is not represented in the algorithm 
 - 
 - 
-### Lab Grade: M
+### Lab Grade: E
 
 #### Participation Grade: S
 - N for liv. There is no reflection. 
